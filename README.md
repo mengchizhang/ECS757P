@@ -6,11 +6,11 @@ The network we're going to analyze is the undirected Facebook graph from snap.st
 
 Summary of dataset statistics:
 
-|               | Max. Degree | Avg. Clustering coefficient  | Modularity | Avg. Path length | Diameter
+|               | Max. Degree | Avg. Clustering Coefficient  | Modularity | Avg. Path Length | Diameter
 | ------------- |-------------| ----- | --- | --- | --- |
 | Facebook network | 1045 | 0.6170038 | 0.8347863 | 3.692507 | 8
-| Random network A | 68 | 0.01087863 | 0.1341609 | 2.605787 | 4
-| Random network B | 1045 | 0.06705884 | 0.1089524 | 2.592925 | 5
+| Random networkA | 68 | 0.01087863 | 0.1341609 | 2.605787 | 4
+| Random networkB | 1045 | 0.06705884 | 0.1089524 | 2.592925 | 5
 
 
 Software and Tools: 
