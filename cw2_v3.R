@@ -12,7 +12,7 @@ out=layout.fruchterman.reingold(fbg)
 plot(fbg,layout=out,vertex.size=5,vertex.label.cex = 0.2)
 tkplot(fbg,layout=layout.kamada.kawai,vertex.size=5,vertex.label.cex = 0.8)
 #examine the measurements
-plot(degree.distribution(graph.data.frame(relaData$relation,directed=TRUE), mode="all"),log="xy",pch="+",xlab = "degree",ylab="fraction of user",main = "degree distribution")#degree distribution not fit power law
+plot(degree.distribution(fbg, mode="all"),log="xy",pch="+",xlab = "degree",ylab="fraction of user",main = "degree distribution")#degree distribution not fit power law
 #in-degree and out-degree
 plot(degree.distribution(fbg, mode="all")*nrow(relaList),x=c(0:max(degree(fbg))),pch=20,xlab="degree",ylab="freq",type="b",main="degree distribution",col="dark gray")
 lines(degree.distribution(fbg,mode="in")*nrow(florida),pch=25,xlab="degree",ylab="freq",col="red",type="b")
